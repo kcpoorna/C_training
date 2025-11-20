@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char des[100]="a vision without execution is hallucination";
+    char se [10]="vision";
+    if((strstr(des, se))!=NULL)
+    printf("found");
+    else
+    printf("not found");
+}
